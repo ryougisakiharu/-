@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>text2</title>
+        <style>
+           
+           #rin{
+                display:flex;
+                flex-direction: column;
+                justify-content: space-around;
+                width:500px;
+                height:400px;
+           }
+           #haru{
+                display:flex;
+                flex-direction: row;
+             }
+            #shiki{
+                margin-left: 28px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="rin">
+            <div id="haru">
+                <div><label for="touxiang">头像</label></div>
+                <div id="shiki">
+                    <input type="file" id="touxiang"/>
+                </div>
+             </div>
+             <div id="haru">
+                 <div><label for="nicheng">昵称</label></div>
+                 <div id="shiki">
+                    <input type="text" id="nicheng"/>
+                </div>
+             </div>
+             <div id="haru">
+                 <div><label>学历</label></div>
+                 <div id="shiki">
+                    <select size="1">
+                    <option value="dazhuan">大专</option>
+                    <option value="benke ">本科</option>
+                </select></div>
+             </div>
+             <div id="haru">
+                 <div> <label for="sex">性别</label></div>
+                 <div id="shiki">
+                    <input type="radio" id="sex" value="man" /> <label for="man">男</label>
+                    <input type="radio" id="sex" value="woman" /> <label for="woman">女</label>
+                </div>
+             </div>
+             <div id="haru">
+                    <div><label for="love">爱好</label></div>
+                    <div id="shiki">
+                        <input type="checkbox" id="love" value="film"/><label for="film">电影</label>
+                        <input type="checkbox" id="love" value="sasin"/><label for="sasin">摄影</label>
+                        <input type="checkbox" id="love" value="music"/><label for="music">音乐</label>
+                        <input type="checkbox" id="love" value="read"/><label for="read">阅读</label>
+                    </div>
+             </div>
+             <div id="haru">
+                <div><label for="sign">签名</label></div>
+                <div id="shiki">
+                    <textarea rows="4" cols="30"></textarea>
+                </div>
+             </div>
+             <div id="haru">
+                <div><label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label></div>
+                <div id="shiki">
+                    <button>保存</button>
+                 </div>
+             </div>
+        </div>
+    </body>
+</html>
